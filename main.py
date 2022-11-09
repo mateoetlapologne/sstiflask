@@ -9,8 +9,8 @@ from flask import Flask, request, render_template, redirect, url_for, session, s
 
 app = Flask(__name__)
 
-upload_dir = "/home/svc_acc/app/uploads"
-misc_dir = '/home/svc_acc/app/misc'
+upload_dir = "/home/projet/app/uploads"
+misc_dir = '/home/projet/app/misc'
 allowed_extensions =  ["jpg" ,'png']
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 
