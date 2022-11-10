@@ -8,3 +8,6 @@ sudo pip install pillow
 
 
 sudo pip install flask
+
+
+sudo pip install gunicorn
